@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="tEk-iK-OAh" customClass="MessageCenterTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tEk-iK-OAh" id="dsp-Ea-eZC">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xtp-sv-3TW">
+                        <rect key="frame" x="8" y="8" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="9S8-h1-rgN"/>
+                            <constraint firstAttribute="width" constant="45" id="iAf-gO-uDA"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="马林邀请你参加活动“乐宾足球”,参加九参加1231232131231231312312312312312222" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="239" translatesAutoresizingMaskIntoConstraints="NO" id="VUP-Tf-BbA">
+                        <rect key="frame" x="61" y="10" width="239" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="iRa-2i-i3U"/>
+                            <constraint firstAttribute="height" constant="34" id="iUL-6J-te6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="iUL-6J-te6"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今天 12:10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8S-LY-T7B">
+                        <rect key="frame" x="248" y="41" width="57" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rnk-2b-1tx">
+                        <rect key="frame" x="46" y="5" width="10" height="10"/>
+                        <color key="backgroundColor" red="0.83775252529999999" green="0.1128563892" blue="0.1580197056" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="Nnc-LQ-iXL"/>
+                            <constraint firstAttribute="height" constant="10" id="mYm-PK-OF8"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dO5-Tx-GLE">
+                        <rect key="frame" x="15" y="58" width="305" height="1"/>
+                        <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="wmF-5S-qA0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VUP-Tf-BbA" firstAttribute="top" secondItem="dsp-Ea-eZC" secondAttribute="top" constant="10" id="11O-xY-FRA"/>
+                    <constraint firstItem="dO5-Tx-GLE" firstAttribute="leading" secondItem="dsp-Ea-eZC" secondAttribute="leading" constant="15" id="4DW-ff-NeK"/>
+                    <constraint firstAttribute="trailing" secondItem="VUP-Tf-BbA" secondAttribute="trailing" constant="20" id="77J-D9-wSF"/>
+                    <constraint firstAttribute="bottom" secondItem="E8S-LY-T7B" secondAttribute="bottom" constant="3" id="CBi-Vb-tW3"/>
+                    <constraint firstItem="VUP-Tf-BbA" firstAttribute="leading" secondItem="xtp-sv-3TW" secondAttribute="trailing" constant="8" id="Dyn-cz-rHl"/>
+                    <constraint firstItem="xtp-sv-3TW" firstAttribute="leading" secondItem="dsp-Ea-eZC" secondAttribute="leading" constant="8" id="Ogn-sE-Esx"/>
+                    <constraint firstAttribute="bottom" secondItem="dO5-Tx-GLE" secondAttribute="bottom" id="ax2-kN-fO4"/>
+                    <constraint firstItem="rnk-2b-1tx" firstAttribute="leading" secondItem="xtp-sv-3TW" secondAttribute="trailing" constant="-7" id="eJI-BD-d2J"/>
+                    <constraint firstAttribute="trailing" secondItem="E8S-LY-T7B" secondAttribute="trailing" constant="15" id="hC1-y1-SLh"/>
+                    <constraint firstAttribute="trailing" secondItem="dO5-Tx-GLE" secondAttribute="trailing" id="ojA-zG-OlP"/>
+                    <constraint firstItem="xtp-sv-3TW" firstAttribute="top" secondItem="dsp-Ea-eZC" secondAttribute="top" constant="8" id="vO8-ZJ-Boa"/>
+                    <constraint firstItem="rnk-2b-1tx" firstAttribute="top" secondItem="dsp-Ea-eZC" secondAttribute="top" constant="5" id="vq3-gM-wOg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="head_img" destination="xtp-sv-3TW" id="p0n-9L-zp8"/>
+                <outlet property="label_content" destination="VUP-Tf-BbA" id="Qel-WN-gRy"/>
+                <outlet property="label_time" destination="E8S-LY-T7B" id="6q7-9h-5bX"/>
+                <outlet property="view_new" destination="rnk-2b-1tx" id="lX8-oI-Aco"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

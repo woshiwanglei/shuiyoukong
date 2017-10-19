@@ -1,0 +1,42 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D36F942F9341657739759DEE0F23BA6105B5F0B7+++6605DE9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "D36F942F9341657739759DEE0F23BA6105B5F0B7+++2152EF5" : {
+
+    },
+    "D36F942F9341657739759DEE0F23BA6105B5F0B7+++748AEBC" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D36F942F9341657739759DEE0F23BA6105B5F0B7+++748AEBC" : 0,
+    "D36F942F9341657739759DEE0F23BA6105B5F0B7+++6605DE9" : 0,
+    "D36F942F9341657739759DEE0F23BA6105B5F0B7+++2152EF5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "89C0B188-D472-4CDC-92A1-F69BB155F27E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D36F942F9341657739759DEE0F23BA6105B5F0B7+++748AEBC" : "shuiyoukong",
+    "D36F942F9341657739759DEE0F23BA6105B5F0B7+++6605DE9" : "3%EF%BC%9Ashuiyoukong\/",
+    "D36F942F9341657739759DEE0F23BA6105B5F0B7+++2152EF5" : "shuiyoukong\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "谁有空—不约而同",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "谁有空—不约而同.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/zhichun",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D36F942F9341657739759DEE0F23BA6105B5F0B7+++2152EF5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitcafe.com:liyongtuo123\/shuiyoukong.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D36F942F9341657739759DEE0F23BA6105B5F0B7+++6605DE9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/zhichun",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D36F942F9341657739759DEE0F23BA6105B5F0B7+++748AEBC"
+    }
+  ]
+}

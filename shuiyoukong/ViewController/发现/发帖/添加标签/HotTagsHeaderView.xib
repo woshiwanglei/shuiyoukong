@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HotTagsHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="添加自定义标签" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="Ep0-Y9-K7l">
+                    <rect key="frame" x="15" y="17" width="245" height="30"/>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LjO-n2-c9Z">
+                    <rect key="frame" x="266" y="16" width="46" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="5C6-su-cUI"/>
+                        <constraint firstAttribute="height" constant="30" id="FQV-tX-jQ9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <state key="normal" title="添加">
+                        <color key="titleColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="例：九眼桥 人均100 日本料理 寿司" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1OT-4Z-CkE">
+                    <rect key="frame" x="15" y="61" width="234" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wj2-i6-hIV">
+                    <rect key="frame" x="15" y="89" width="305" height="1"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="olP-3i-ars"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ep0-Y9-K7l" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="4yb-sk-8ZG"/>
+                <constraint firstAttribute="trailing" secondItem="Wj2-i6-hIV" secondAttribute="trailing" id="9Uc-0s-KIV"/>
+                <constraint firstAttribute="trailing" secondItem="Ep0-Y9-K7l" secondAttribute="trailing" constant="60" id="ERE-Tz-lk9"/>
+                <constraint firstAttribute="trailing" secondItem="LjO-n2-c9Z" secondAttribute="trailing" constant="8" id="Haq-nW-hGK"/>
+                <constraint firstItem="LjO-n2-c9Z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="Spg-Ff-kwo"/>
+                <constraint firstItem="Wj2-i6-hIV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="Ueu-nU-hYg"/>
+                <constraint firstItem="1OT-4Z-CkE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="V8g-rL-7hU"/>
+                <constraint firstItem="1OT-4Z-CkE" firstAttribute="top" secondItem="Ep0-Y9-K7l" secondAttribute="bottom" constant="14" id="ZxZ-WW-q4v"/>
+                <constraint firstAttribute="bottom" secondItem="Wj2-i6-hIV" secondAttribute="bottom" id="sjA-SF-Hjr"/>
+                <constraint firstItem="Ep0-Y9-K7l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="17" id="xCg-ln-ryg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn_add" destination="LjO-n2-c9Z" id="x17-rV-yxP"/>
+                <outlet property="input_text" destination="Ep0-Y9-K7l" id="5jc-8j-BAl"/>
+            </connections>
+        </view>
+    </objects>
+</document>

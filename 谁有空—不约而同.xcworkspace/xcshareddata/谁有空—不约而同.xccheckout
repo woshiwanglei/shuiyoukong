@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>89C0B188-D472-4CDC-92A1-F69BB155F27E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>谁有空—不约而同</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D36F942F9341657739759DEE0F23BA6105B5F0B7</key>
+		<string>http://www.svnchina.com/svn/zhichun</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>谁有空—不约而同.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D36F942F9341657739759DEE0F23BA6105B5F0B7</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>D36F942F9341657739759DEE0F23BA6105B5F0B7</key>
+		<string>http://www.svnchina.com/svn/zhichun</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://www.svnchina.com/svn/zhichun/Free/ios/shuiyoukong/%E8%B0%81%E6%9C%89%E7%A9%BA%E2%80%94%E4%B8%8D%E7%BA%A6%E8%80%8C%E5%90%8C.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D36F942F9341657739759DEE0F23BA6105B5F0B7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D36F942F9341657739759DEE0F23BA6105B5F0B7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shuiyoukong</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D36F942F9341657739759DEE0F23BA6105B5F0B7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shuiyoukong</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameShareViewController">
+            <connections>
+                <outlet property="btn_free" destination="Hbt-yK-0tt" id="LDf-jJ-eo2"/>
+                <outlet property="btn_playAgain" destination="074-D7-Gqi" id="zOQ-BZ-NRe"/>
+                <outlet property="btn_share" destination="XTi-Xv-Pq0" id="dF1-sh-sHm"/>
+                <outlet property="btn_to_bottom" destination="FL6-3f-qvi" id="1ym-DB-JV2"/>
+                <outlet property="labelConstant1" destination="Cqb-6O-6xk" id="bJM-uI-on4"/>
+                <outlet property="labelConstant2" destination="61r-4V-3pz" id="BHI-cH-X3h"/>
+                <outlet property="label_dishu" destination="5jd-yB-mSZ" id="mIz-LK-W9u"/>
+                <outlet property="label_name" destination="WU7-Hs-8GZ" id="6Sq-Wn-Eed"/>
+                <outlet property="label_name2" destination="6Vp-VJ-qXb" id="27J-aK-yrz"/>
+                <outlet property="label_name3" destination="iB6-39-HOn" id="LZl-uH-paC"/>
+                <outlet property="labeltoLabel1" destination="nsX-BO-aeN" id="IZi-Xe-75C"/>
+                <outlet property="top_to_top" destination="sDd-1I-4X8" id="lKX-ex-bQV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view_hegiht" destination="V6w-oi-fBF" id="eQi-HR-EW6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="share_backgroud" translatesAutoresizingMaskIntoConstraints="NO" id="q9Y-qo-txl">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="谁有空－不约而同" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AWi-sr-7E3">
+                    <rect key="frame" x="8" y="8" width="112" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.3411764706" green="0.8862745098" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="爆裂地鼠" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jd-yB-mSZ">
+                    <rect key="frame" x="130" y="40" width="80" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.3411764706" green="0.8862745098" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hbt-yK-0tt">
+                    <rect key="frame" x="90" y="36" width="32" height="32"/>
+                    <state key="normal" image="icon_free">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T2p-Pf-BAp">
+                    <rect key="frame" x="30" y="84" width="260" height="360"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="炸裂!  你被打啦!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quG-bx-fMw">
+                            <rect key="frame" x="41" y="10" width="178" height="30"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                            <color key="textColor" red="0.87058823529999996" green="0.25098039220000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="罗二胖，放学给我等着，看我不打死你！" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="234" translatesAutoresizingMaskIntoConstraints="NO" id="6Vp-VJ-qXb">
+                            <rect key="frame" x="13" y="90" width="234" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.87058823529999996" green="0.25098039220000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="马绍尔：果然是地鼠高手，是在下输了" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="234" translatesAutoresizingMaskIntoConstraints="NO" id="iB6-39-HOn">
+                            <rect key="frame" x="13" y="110" width="234" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.87058823529999996" green="0.25098039220000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxx，你是猪吗？我打你你不会躲啊！" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="234" translatesAutoresizingMaskIntoConstraints="NO" id="WU7-Hs-8GZ">
+                            <rect key="frame" x="13" y="70" width="234" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.87058823529999996" green="0.25098039220000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="074-D7-Gqi">
+                            <rect key="frame" x="25" y="317" width="80" height="30"/>
+                            <color key="backgroundColor" red="0.3411764706" green="0.8862745098" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="Wg5-oK-EYr"/>
+                            </constraints>
+                            <state key="normal" title="返回游戏">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTi-Xv-Pq0">
+                            <rect key="frame" x="155" y="317" width="80" height="30"/>
+                            <color key="backgroundColor" red="0.3411764706" green="0.8862745098" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="jGR-af-65q"/>
+                            </constraints>
+                            <state key="normal" title="分享战果">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRM-yy-Jzk">
+                            <rect key="frame" x="80" y="172" width="100" height="100"/>
+                            <state key="normal" image="two-dimension_200">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="复仇通道" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1be-N7-g1T">
+                            <rect key="frame" x="104" y="152" width="52" height="16"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQH-W1-lAL">
+                            <rect key="frame" x="55" y="280" width="151" height="37"/>
+                            <state key="normal" image="revenge">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="bQH-W1-lAL" firstAttribute="centerX" secondItem="IRM-yy-Jzk" secondAttribute="centerX" id="41i-wx-P9L"/>
+                        <constraint firstItem="iB6-39-HOn" firstAttribute="top" secondItem="6Vp-VJ-qXb" secondAttribute="bottom" constant="5" id="61r-4V-3pz"/>
+                        <constraint firstAttribute="bottom" secondItem="074-D7-Gqi" secondAttribute="bottom" constant="13" id="A93-VK-h3C"/>
+                        <constraint firstAttribute="trailing" secondItem="WU7-Hs-8GZ" secondAttribute="trailing" constant="13" id="AxK-EZ-dsO"/>
+                        <constraint firstItem="6Vp-VJ-qXb" firstAttribute="top" secondItem="WU7-Hs-8GZ" secondAttribute="bottom" constant="5" id="Cqb-6O-6xk"/>
+                        <constraint firstAttribute="bottom" secondItem="bQH-W1-lAL" secondAttribute="bottom" constant="43" id="FL6-3f-qvi"/>
+                        <constraint firstItem="IRM-yy-Jzk" firstAttribute="top" secondItem="1be-N7-g1T" secondAttribute="bottom" constant="4" id="HJ6-7b-dWf"/>
+                        <constraint firstItem="074-D7-Gqi" firstAttribute="leading" secondItem="T2p-Pf-BAp" secondAttribute="leading" constant="25" id="KKn-IQ-WqH"/>
+                        <constraint firstItem="WU7-Hs-8GZ" firstAttribute="leading" secondItem="T2p-Pf-BAp" secondAttribute="leading" constant="13" id="OPn-VR-uq6"/>
+                        <constraint firstAttribute="centerX" secondItem="1be-N7-g1T" secondAttribute="centerX" id="PEi-eL-cmq"/>
+                        <constraint firstAttribute="height" constant="360" id="V6w-oi-fBF"/>
+                        <constraint firstAttribute="trailing" secondItem="XTi-Xv-Pq0" secondAttribute="trailing" constant="25" id="W70-Z8-EOp"/>
+                        <constraint firstAttribute="bottom" secondItem="XTi-Xv-Pq0" secondAttribute="bottom" constant="13" id="Whh-Zc-CnR"/>
+                        <constraint firstItem="bQH-W1-lAL" firstAttribute="top" secondItem="IRM-yy-Jzk" secondAttribute="bottom" constant="8" id="bMp-Rf-iiV"/>
+                        <constraint firstItem="6Vp-VJ-qXb" firstAttribute="leading" secondItem="T2p-Pf-BAp" secondAttribute="leading" constant="13" id="d5P-zZ-wSi"/>
+                        <constraint firstItem="iB6-39-HOn" firstAttribute="leading" secondItem="T2p-Pf-BAp" secondAttribute="leading" constant="13" id="hCX-SP-CnM"/>
+                        <constraint firstAttribute="centerX" secondItem="quG-bx-fMw" secondAttribute="centerX" id="hEE-s2-EgO"/>
+                        <constraint firstAttribute="trailing" secondItem="6Vp-VJ-qXb" secondAttribute="trailing" constant="13" id="kXO-kk-Px7"/>
+                        <constraint firstAttribute="trailing" secondItem="iB6-39-HOn" secondAttribute="trailing" constant="13" id="n4R-9U-gnp"/>
+                        <constraint firstItem="WU7-Hs-8GZ" firstAttribute="top" secondItem="quG-bx-fMw" secondAttribute="bottom" constant="30" id="nsX-BO-aeN"/>
+                        <constraint firstItem="IRM-yy-Jzk" firstAttribute="centerX" secondItem="1be-N7-g1T" secondAttribute="centerX" id="roV-6z-pvI"/>
+                        <constraint firstItem="quG-bx-fMw" firstAttribute="top" secondItem="T2p-Pf-BAp" secondAttribute="top" constant="10" id="sDd-1I-4X8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="T2p-Pf-BAp" firstAttribute="top" secondItem="5jd-yB-mSZ" secondAttribute="bottom" constant="20" id="0O9-zW-PdG"/>
+                <constraint firstItem="AWi-sr-7E3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="9mr-Nc-JVS"/>
+                <constraint firstAttribute="trailing" secondItem="q9Y-qo-txl" secondAttribute="trailing" id="AWu-BT-4DI"/>
+                <constraint firstAttribute="bottom" secondItem="q9Y-qo-txl" secondAttribute="bottom" id="Ajz-NJ-fRS"/>
+                <constraint firstAttribute="trailing" secondItem="T2p-Pf-BAp" secondAttribute="trailing" constant="30" id="GeL-kT-sK5"/>
+                <constraint firstItem="5jd-yB-mSZ" firstAttribute="centerY" secondItem="Hbt-yK-0tt" secondAttribute="centerY" id="HfK-Vn-VgO"/>
+                <constraint firstItem="T2p-Pf-BAp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="LM9-vZ-stF"/>
+                <constraint firstItem="5jd-yB-mSZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="eYS-Eb-ZID"/>
+                <constraint firstItem="AWi-sr-7E3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="kJ9-Jg-A0i"/>
+                <constraint firstItem="q9Y-qo-txl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mVC-hB-leE"/>
+                <constraint firstItem="5jd-yB-mSZ" firstAttribute="leading" secondItem="Hbt-yK-0tt" secondAttribute="trailing" constant="8" id="r8R-dx-HNK"/>
+                <constraint firstItem="q9Y-qo-txl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="tEU-fX-FIA"/>
+                <constraint firstItem="q9Y-qo-txl" firstAttribute="centerX" secondItem="5jd-yB-mSZ" secondAttribute="centerX" constant="-10" id="uwo-0d-eEs"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_free" width="32" height="32"/>
+        <image name="revenge" width="151" height="37"/>
+        <image name="share_backgroud" width="320" height="503"/>
+        <image name="two-dimension_200" width="100" height="100"/>
+    </resources>
+</document>

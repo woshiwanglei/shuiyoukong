@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BothNearByViewController">
+            <connections>
+                <outlet property="btn_sendMessage" destination="9ej-V7-yOX" id="91P-bD-ZGi"/>
+                <outlet property="mTableView" destination="dMA-Eh-zlZ" id="6Ub-Nz-gTH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ALp-nb-Jjd">
+                    <rect key="frame" x="0.0" y="440" width="320" height="40"/>
+                    <subviews>
+                        <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7f7-6K-je7">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                            <color key="backgroundColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="F9I-2x-od5"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ej-V7-yOX">
+                            <rect key="frame" x="0.0" y="1" width="320" height="39"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="发消息">
+                                <color key="titleColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="9ej-V7-yOX" firstAttribute="leading" secondItem="ALp-nb-Jjd" secondAttribute="leading" id="9vk-fY-mi0"/>
+                        <constraint firstItem="9ej-V7-yOX" firstAttribute="top" secondItem="ALp-nb-Jjd" secondAttribute="top" constant="1" id="BTw-ig-NeJ"/>
+                        <constraint firstAttribute="bottom" secondItem="9ej-V7-yOX" secondAttribute="bottom" id="QHq-rE-eCp"/>
+                        <constraint firstItem="7f7-6K-je7" firstAttribute="leading" secondItem="ALp-nb-Jjd" secondAttribute="leading" id="RxZ-u3-b5e"/>
+                        <constraint firstAttribute="height" constant="40" id="VKf-v7-OOD"/>
+                        <constraint firstAttribute="trailing" secondItem="9ej-V7-yOX" secondAttribute="trailing" id="YFG-zD-O21"/>
+                        <constraint firstItem="7f7-6K-je7" firstAttribute="top" secondItem="ALp-nb-Jjd" secondAttribute="top" id="dvQ-ww-QMn"/>
+                        <constraint firstAttribute="trailing" secondItem="7f7-6K-je7" secondAttribute="trailing" id="wRA-GC-ice"/>
+                        <constraint firstItem="9ej-V7-yOX" firstAttribute="top" secondItem="7f7-6K-je7" secondAttribute="bottom" id="zMw-9l-E29"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="dMA-Eh-zlZ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="440"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ALp-nb-Jjd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1ak-Rr-4EW"/>
+                <constraint firstItem="dMA-Eh-zlZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4f4-A9-aab"/>
+                <constraint firstAttribute="trailing" secondItem="dMA-Eh-zlZ" secondAttribute="trailing" id="6Gf-8f-42Q"/>
+                <constraint firstAttribute="trailing" secondItem="ALp-nb-Jjd" secondAttribute="trailing" id="BaM-2A-5B3"/>
+                <constraint firstItem="dMA-Eh-zlZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Lmp-Fd-Plx"/>
+                <constraint firstAttribute="bottom" secondItem="ALp-nb-Jjd" secondAttribute="bottom" id="Qkc-DT-DZg"/>
+                <constraint firstItem="9ej-V7-yOX" firstAttribute="top" secondItem="dMA-Eh-zlZ" secondAttribute="bottom" id="gLF-SY-rLc"/>
+                <constraint firstItem="ALp-nb-Jjd" firstAttribute="top" secondItem="dMA-Eh-zlZ" secondAttribute="bottom" id="y7I-HK-IXw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="gLF-SY-rLc"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

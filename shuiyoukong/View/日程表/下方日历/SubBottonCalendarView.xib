@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SubBottonCalendarView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38h-z8-AJg">
+                    <rect key="frame" x="284" y="272" width="33" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydh-CM-wGf">
+                    <rect key="frame" x="284" y="293" width="33" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9FU-JP-gCT">
+                    <rect key="frame" x="285" y="314" width="30" height="3"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="TCh-OE-8f9"/>
+                        <constraint firstAttribute="height" constant="3" id="dZr-B5-GSB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9FU-JP-gCT" firstAttribute="centerX" secondItem="Ydh-CM-wGf" secondAttribute="centerX" id="8JA-lt-xFz"/>
+                <constraint firstAttribute="centerY" secondItem="38h-z8-AJg" secondAttribute="centerY" constant="20" id="KIF-vY-Lvk"/>
+                <constraint firstItem="Ydh-CM-wGf" firstAttribute="centerX" secondItem="38h-z8-AJg" secondAttribute="centerX" id="QHE-Zy-QF2"/>
+                <constraint firstItem="Ydh-CM-wGf" firstAttribute="top" secondItem="38h-z8-AJg" secondAttribute="bottom" constant="5" id="ZUX-Sh-bQi"/>
+                <constraint firstItem="9FU-JP-gCT" firstAttribute="top" secondItem="Ydh-CM-wGf" secondAttribute="bottom" constant="5" id="eWk-jb-67e"/>
+                <constraint firstAttribute="centerX" secondItem="38h-z8-AJg" secondAttribute="centerX" id="zHb-HJ-LxJ"/>
+            </constraints>
+            <connections>
+                <outlet property="label_date" destination="Ydh-CM-wGf" id="TCp-Qh-I3N"/>
+                <outlet property="label_week" destination="38h-z8-AJg" id="pCt-e6-FzE"/>
+                <outlet property="select_view" destination="9FU-JP-gCT" id="SDV-BN-XoQ"/>
+            </connections>
+        </view>
+    </objects>
+</document>

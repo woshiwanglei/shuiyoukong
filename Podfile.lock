@@ -1,0 +1,81 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.0.1)
+  - AFNetworking (2.6.0):
+    - AFNetworking/NSURLConnection (= 2.6.0)
+    - AFNetworking/NSURLSession (= 2.6.0)
+    - AFNetworking/Reachability (= 2.6.0)
+    - AFNetworking/Security (= 2.6.0)
+    - AFNetworking/Serialization (= 2.6.0)
+    - AFNetworking/UIKit (= 2.6.0)
+  - AFNetworking/NSURLConnection (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.0)
+  - AFNetworking/Security (2.6.0)
+  - AFNetworking/Serialization (2.6.0)
+  - AFNetworking/UIKit (2.6.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AMap2DMap (3.1.0)
+  - AMapSearch (3.0.0)
+  - INTULocationManager (4.0.0)
+  - KVNProgress (2.2.1)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (0.0.1)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - NSDate+TimeAgo (1.0.3)
+  - RongCloudIMKit (2.3.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SocketRocket (0.4.1)
+  - UMengAnalytics-NO-IDFA (3.5.17)
+  - UMengMessage (1.1.0.2)
+  - VPImageCropper (0.0.4)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - AFNetworking
+  - AMap2DMap
+  - AMapSearch
+  - INTULocationManager
+  - KVNProgress
+  - MBProgressHUD
+  - MJRefresh (~> 0.0.1)
+  - NJKWebViewProgress
+  - NSDate+TimeAgo
+  - RongCloudIMKit
+  - SDWebImage
+  - SocketRocket
+  - UMengAnalytics-NO-IDFA
+  - UMengMessage
+  - VPImageCropper
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: eeb47e64b7af3e09a50e1ce5dfee9c8c957490c6
+  AFNetworking: 79f7eb1a0fcfa7beb409332b2ca49afe9ce53b05
+  AMap2DMap: a6741139dd16d237713c4fd6cae9a0399ca1fe25
+  AMapSearch: fd1ed96353f8a0f5c2e2463dac6a145bb3e6970f
+  INTULocationManager: 754f2800415378b7bb2c07be103449e1f6a2cc70
+  KVNProgress: 7001d2d16a2755cee5599e8e485befe056f2197b
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: 3ca90d4639e787c7b61432d84905f16de05d81b2
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  NSDate+TimeAgo: 416f55d2696d3744c313091c5a9280d47f8238fe
+  RongCloudIMKit: cb408a601cf23f7e506ebe1a7d95b54e74ade9af
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
+  UMengAnalytics-NO-IDFA: 601dab9ffe32f9de3fa0a6116768aed18a56f8a9
+  UMengMessage: 48fac77da8a71729c3d9c40eed16151d8917d9b3
+  VPImageCropper: f4895315460bd05fbb22dbee6b063bdd43f25797
+
+COCOAPODS: 0.39.0.beta.4

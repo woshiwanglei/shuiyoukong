@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThridInviteCodeViewController">
+            <connections>
+                <outlet property="btn_bind" destination="25s-nO-lPu" id="D38-0f-xsE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izh-HS-mMa">
+                    <rect key="frame" x="133" y="133" width="55" height="94"/>
+                    <state key="normal" image="icon_not_bind"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="绑定手机号可使用邀请码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TyF-wS-kS6">
+                    <rect key="frame" x="78" y="240" width="165" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25s-nO-lPu">
+                    <rect key="frame" x="100" y="284" width="120" height="30"/>
+                    <color key="backgroundColor" red="0.33725490200000002" green="0.71764705880000002" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="gcz-9y-UZC"/>
+                    </constraints>
+                    <state key="normal" title="立即绑定">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TyF-wS-kS6" firstAttribute="top" secondItem="Izh-HS-mMa" secondAttribute="bottom" constant="13" id="9HQ-gp-RPF"/>
+                <constraint firstItem="25s-nO-lPu" firstAttribute="top" secondItem="TyF-wS-kS6" secondAttribute="bottom" constant="26" id="Ukw-SZ-ONS"/>
+                <constraint firstItem="Izh-HS-mMa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YWq-WS-cUH"/>
+                <constraint firstItem="Izh-HS-mMa" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-60" id="dtx-QM-Ggo"/>
+                <constraint firstItem="25s-nO-lPu" firstAttribute="centerX" secondItem="Izh-HS-mMa" secondAttribute="centerX" id="hs4-ng-G0C"/>
+                <constraint firstItem="TyF-wS-kS6" firstAttribute="centerX" secondItem="Izh-HS-mMa" secondAttribute="centerX" id="vAB-NY-qtP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_not_bind" width="55" height="94"/>
+    </resources>
+</document>

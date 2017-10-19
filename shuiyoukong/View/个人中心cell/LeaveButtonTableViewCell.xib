@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LeaveButtonTableViewCell" id="KGk-i7-Jjw" customClass="LeaveButtonTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="as1-TP-eve">
+                        <rect key="frame" x="29" y="1" width="262" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="0R7-hW-2gt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <state key="normal" title="退出登录">
+                            <color key="titleColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="titleShadowColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="as1-TP-eve" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="29" id="Oxg-3P-yGr"/>
+                    <constraint firstAttribute="centerX" secondItem="as1-TP-eve" secondAttribute="centerX" id="UWj-Bn-a4G"/>
+                    <constraint firstAttribute="trailing" secondItem="as1-TP-eve" secondAttribute="trailing" constant="29" id="Viy-lX-7Pq"/>
+                    <constraint firstAttribute="centerY" secondItem="as1-TP-eve" secondAttribute="centerY" id="VxC-1E-K3Y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="escButton" destination="as1-TP-eve" id="B2p-iU-zd1"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

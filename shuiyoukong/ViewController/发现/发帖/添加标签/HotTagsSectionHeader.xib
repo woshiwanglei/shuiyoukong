@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HotTagsSectionHeader">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fv-5y-nLU">
+                    <rect key="frame" x="15" y="9" width="15" height="22"/>
+                    <state key="normal" image="icon_hot_tags">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已添加" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nox-AA-nsd">
+                    <rect key="frame" x="35" y="11" width="45" height="18"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eUp-AX-jp5">
+                    <rect key="frame" x="15" y="39" width="305" height="1"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="dx1-WV-ceW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="nox-AA-nsd" secondAttribute="centerY" id="AMt-9V-UJh"/>
+                <constraint firstItem="eUp-AX-jp5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="BGI-iM-rnw"/>
+                <constraint firstAttribute="bottom" secondItem="eUp-AX-jp5" secondAttribute="bottom" id="BzI-f5-BIh"/>
+                <constraint firstAttribute="trailing" secondItem="eUp-AX-jp5" secondAttribute="trailing" id="N1F-e5-yfI"/>
+                <constraint firstItem="nox-AA-nsd" firstAttribute="leading" secondItem="5Fv-5y-nLU" secondAttribute="trailing" constant="5" id="OKj-nL-XDr"/>
+                <constraint firstItem="5Fv-5y-nLU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="fUh-qc-yOl"/>
+                <constraint firstAttribute="centerY" secondItem="5Fv-5y-nLU" secondAttribute="centerY" id="jGh-fY-S84"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn_img" destination="5Fv-5y-nLU" id="kVx-1t-CvJ"/>
+                <outlet property="label_name" destination="nox-AA-nsd" id="qLa-HL-c3x"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_hot_tags" width="15" height="15"/>
+    </resources>
+</document>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UserInfoTableHeader">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vea-Jz-svv">
+                    <rect key="frame" x="0.0" y="0.0" width="160" height="40"/>
+                    <state key="normal" title="TA的推荐">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4E-HZ-LGe">
+                    <rect key="frame" x="160" y="0.0" width="160" height="40"/>
+                    <state key="normal" title="TA想去的">
+                        <color key="titleColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="g4E-HZ-LGe" secondAttribute="trailing" id="Lu3-LW-kJ6"/>
+                <constraint firstItem="g4E-HZ-LGe" firstAttribute="width" secondItem="vea-Jz-svv" secondAttribute="width" id="NCJ-nb-fXq"/>
+                <constraint firstAttribute="bottom" secondItem="vea-Jz-svv" secondAttribute="bottom" id="X9W-dP-0Hg"/>
+                <constraint firstItem="g4E-HZ-LGe" firstAttribute="leading" secondItem="vea-Jz-svv" secondAttribute="trailing" id="XhR-8I-CZl"/>
+                <constraint firstAttribute="bottom" secondItem="g4E-HZ-LGe" secondAttribute="bottom" id="hUP-Jd-IiZ"/>
+                <constraint firstItem="g4E-HZ-LGe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="l7e-Ib-48G"/>
+                <constraint firstItem="vea-Jz-svv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="q0i-OS-44p"/>
+                <constraint firstItem="vea-Jz-svv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xTd-Sb-y5B"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn_suggest" destination="vea-Jz-svv" id="3G7-Rb-vp1"/>
+                <outlet property="btn_want" destination="g4E-HZ-LGe" id="Yfw-T6-BVx"/>
+            </connections>
+        </view>
+    </objects>
+</document>

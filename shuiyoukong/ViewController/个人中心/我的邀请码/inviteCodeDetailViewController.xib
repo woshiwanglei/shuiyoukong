@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="inviteCodeDetailViewController">
+            <connections>
+                <outlet property="btn_1" destination="jL4-SA-sv5" id="752-Tr-iID"/>
+                <outlet property="btn_5" destination="buN-Dn-E4V" id="LTb-3p-80g"/>
+                <outlet property="btn_50" destination="YuQ-cY-IsN" id="ZMJ-Lb-Rz7"/>
+                <outlet property="btn_5_location" destination="a5c-fN-qop" id="GFw-A1-xZG"/>
+                <outlet property="label_notice" destination="uni-sv-thb" id="aoP-nR-Sb4"/>
+                <outlet property="progress_length" destination="Gp1-FY-EAN" id="yYt-GC-Fat"/>
+                <outlet property="progress_view" destination="ml9-qC-3X5" id="iP2-Wx-Gwe"/>
+                <outlet property="track_view" destination="31d-4u-zzJ" id="OKZ-o8-J9B"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已成功邀请 1 位好友 丨 获得 12000 积分" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uni-sv-thb">
+                    <rect key="frame" x="24" y="15" width="272" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="31d-4u-zzJ">
+                    <rect key="frame" x="10" y="41" width="300" height="20"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ml9-qC-3X5">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="20"/>
+                            <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="160" id="Gp1-FY-EAN"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="7mb-2X-gkX"/>
+                        <constraint firstItem="ml9-qC-3X5" firstAttribute="top" secondItem="31d-4u-zzJ" secondAttribute="top" id="CGC-6K-Mob"/>
+                        <constraint firstAttribute="centerY" secondItem="ml9-qC-3X5" secondAttribute="centerY" id="Cqa-Gs-nFG"/>
+                        <constraint firstAttribute="bottom" secondItem="ml9-qC-3X5" secondAttribute="bottom" id="N0x-vj-d9X"/>
+                        <constraint firstItem="ml9-qC-3X5" firstAttribute="leading" secondItem="31d-4u-zzJ" secondAttribute="leading" id="fSz-Ol-6Qq"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Cqa-Gs-nFG"/>
+                        </mask>
+                    </variation>
+                </view>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jL4-SA-sv5">
+                    <rect key="frame" x="10" y="69" width="6" height="41"/>
+                    <state key="normal" image="invite_code_1_off">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buN-Dn-E4V">
+                    <rect key="frame" x="40" y="69" width="6" height="41"/>
+                    <state key="normal" image="invite_code_5_off">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuQ-cY-IsN">
+                    <rect key="frame" x="300" y="69" width="14" height="41"/>
+                    <state key="normal" image="invite_code_50_off">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 人" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4p-Vz-kqo">
+                    <rect key="frame" x="10" y="138" width="27" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="额外奖励 100元积分红包" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzM-RN-lyb">
+                    <rect key="frame" x="150" y="138" width="155" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50 人" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4l-nb-Xcx">
+                    <rect key="frame" x="10" y="163" width="35" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="额外奖励 1000元积分红包" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XT0-Ri-nqX">
+                    <rect key="frame" x="150" y="163" width="163" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="详细规则：受邀用户成功注册，双方获赠50积分；受邀注册成功满5位，发起邀请码一方额外奖励100元积分红包；此后，恢复基本奖励，每注册成功1位，双方获赠50积分；直到下次受邀注册成功用户达50位，额外奖励1000元积分红包" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="302" translatesAutoresizingMaskIntoConstraints="NO" id="1mi-BF-vzb">
+                    <rect key="frame" x="10" y="188" width="302" height="78"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="r4p-Vz-kqo" firstAttribute="centerY" secondItem="wzM-RN-lyb" secondAttribute="centerY" id="9Zx-kQ-pUn"/>
+                <constraint firstItem="X4l-nb-Xcx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="CFH-qg-Ix2"/>
+                <constraint firstItem="jL4-SA-sv5" firstAttribute="top" secondItem="ml9-qC-3X5" secondAttribute="bottom" constant="8" id="FMS-8K-c2m"/>
+                <constraint firstItem="1mi-BF-vzb" firstAttribute="top" secondItem="X4l-nb-Xcx" secondAttribute="bottom" constant="8" id="J0z-Q0-c9Z"/>
+                <constraint firstItem="r4p-Vz-kqo" firstAttribute="top" secondItem="jL4-SA-sv5" secondAttribute="bottom" constant="28" id="J8x-xa-bIH"/>
+                <constraint firstItem="buN-Dn-E4V" firstAttribute="centerX" secondItem="ml9-qC-3X5" secondAttribute="centerX" constant="-30" id="JH5-Ti-XC1"/>
+                <constraint firstItem="ml9-qC-3X5" firstAttribute="leading" secondItem="jL4-SA-sv5" secondAttribute="leading" id="KfN-86-C6q"/>
+                <constraint firstItem="uni-sv-thb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="MYM-e5-4PN"/>
+                <constraint firstItem="YuQ-cY-IsN" firstAttribute="top" secondItem="31d-4u-zzJ" secondAttribute="bottom" constant="8" id="ZXz-hL-Cu1"/>
+                <constraint firstItem="buN-Dn-E4V" firstAttribute="leading" secondItem="31d-4u-zzJ" secondAttribute="leading" constant="30" id="a5c-fN-qop"/>
+                <constraint firstItem="YuQ-cY-IsN" firstAttribute="trailing" secondItem="31d-4u-zzJ" secondAttribute="trailing" constant="4" id="ajb-mg-WwE"/>
+                <constraint firstItem="31d-4u-zzJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="apP-g0-zdv"/>
+                <constraint firstAttribute="trailing" secondItem="1mi-BF-vzb" secondAttribute="trailing" constant="8" id="cou-vf-BRl"/>
+                <constraint firstItem="1mi-BF-vzb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="jIW-4b-MVV"/>
+                <constraint firstItem="X4l-nb-Xcx" firstAttribute="centerY" secondItem="XT0-Ri-nqX" secondAttribute="centerY" id="kFI-zc-x5J"/>
+                <constraint firstAttribute="trailing" secondItem="wzM-RN-lyb" secondAttribute="trailing" constant="15" id="lfv-BG-z3Q"/>
+                <constraint firstAttribute="centerX" secondItem="uni-sv-thb" secondAttribute="centerX" id="luu-Nw-xYJ"/>
+                <constraint firstAttribute="trailing" secondItem="31d-4u-zzJ" secondAttribute="trailing" constant="10" id="neO-Bg-Iee"/>
+                <constraint firstItem="buN-Dn-E4V" firstAttribute="top" secondItem="ml9-qC-3X5" secondAttribute="bottom" constant="8" id="o6S-Dw-g53"/>
+                <constraint firstItem="r4p-Vz-kqo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="pf1-lV-ekd"/>
+                <constraint firstItem="31d-4u-zzJ" firstAttribute="top" secondItem="uni-sv-thb" secondAttribute="bottom" constant="8" id="rHZ-eu-kPT"/>
+                <constraint firstItem="X4l-nb-Xcx" firstAttribute="top" secondItem="r4p-Vz-kqo" secondAttribute="bottom" constant="8" id="t32-T8-uEd"/>
+                <constraint firstAttribute="trailing" secondItem="XT0-Ri-nqX" secondAttribute="trailing" constant="7" id="utd-gZ-5eg"/>
+                <constraint firstItem="XT0-Ri-nqX" firstAttribute="top" secondItem="wzM-RN-lyb" secondAttribute="bottom" constant="8" id="x1R-RH-krt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="JH5-Ti-XC1"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="invite_code_1_off" width="6" height="41"/>
+        <image name="invite_code_50_off" width="14" height="41"/>
+        <image name="invite_code_5_off" width="6" height="41"/>
+    </resources>
+</document>

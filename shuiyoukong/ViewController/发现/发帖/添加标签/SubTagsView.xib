@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SubTagsView">
+            <rect key="frame" x="5" y="0.0" width="75" height="37"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMH-fW-xEp">
+                    <rect key="frame" x="40" y="1" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="YOe-2f-zkU"/>
+                        <constraint firstAttribute="width" constant="35" id="ehh-sM-JnK"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="cha">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="春熙路" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQs-cS-u9q">
+                    <rect key="frame" x="5" y="10" width="55" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="5hg-cG-OyG"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="VEg-LI-rbH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="5hg-cG-OyG"/>
+                            <exclude reference="VEg-LI-rbH"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.45882352941176469" green="0.58431372549019611" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="GQs-cS-u9q" secondAttribute="trailing" constant="15" id="1Uv-Um-dBf"/>
+                <constraint firstAttribute="centerY" secondItem="GQs-cS-u9q" secondAttribute="centerY" id="6Ic-Tv-H55"/>
+                <constraint firstAttribute="trailing" secondItem="GMH-fW-xEp" secondAttribute="trailing" id="L1W-VG-Zdy"/>
+                <constraint firstAttribute="centerY" secondItem="GMH-fW-xEp" secondAttribute="centerY" id="VpB-NN-zg4"/>
+                <constraint firstAttribute="trailing" secondItem="GQs-cS-u9q" secondAttribute="trailing" constant="30" id="Wrq-6J-OMP"/>
+                <constraint firstItem="GQs-cS-u9q" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="ghG-Iq-FZE"/>
+                <constraint firstAttribute="centerY" secondItem="GQs-cS-u9q" secondAttribute="centerY" id="vEF-jS-h72"/>
+                <constraint firstItem="GQs-cS-u9q" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="xeC-IU-VZD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="6Ic-Tv-H55"/>
+                    <exclude reference="Wrq-6J-OMP"/>
+                    <exclude reference="xeC-IU-VZD"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="btn_delete" destination="GMH-fW-xEp" id="u4T-Bd-G1a"/>
+                <outlet property="label_name" destination="GQs-cS-u9q" id="psP-Bw-jGX"/>
+            </connections>
+            <point key="canvasLocation" x="287.5" y="205.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cha" width="15" height="15"/>
+    </resources>
+</document>

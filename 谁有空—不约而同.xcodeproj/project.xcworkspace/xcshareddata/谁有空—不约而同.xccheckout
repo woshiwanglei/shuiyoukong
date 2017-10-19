@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>551B3E1D-2455-41DD-AEFF-86BCAA4FB599</string>
+	<key>IDESourceControlProjectName</key>
+	<string>谁有空—不约而同</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1520ee13-fda0-4a35-892e-1f7a0d9abc57++4084</key>
+		<string>http://www.svnchina.com/svn/zhichun/Free/ios/shuiyoukong</string>
+		<key>D36F942F9341657739759DEE0F23BA6105B5F0B7</key>
+		<string>https://gitcafe.com/liyongtuo123/shuiyoukong.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>谁有空—不约而同.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1520ee13-fda0-4a35-892e-1f7a0d9abc57++4084</key>
+		<string>../..</string>
+		<key>D36F942F9341657739759DEE0F23BA6105B5F0B7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>1520ee13-fda0-4a35-892e-1f7a0d9abc57++4084</key>
+		<string>http://www.svnchina.com/svn/zhichun</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://gitcafe.com/liyongtuo123/shuiyoukong.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D36F942F9341657739759DEE0F23BA6105B5F0B7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D36F942F9341657739759DEE0F23BA6105B5F0B7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Free1.6</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1520ee13-fda0-4a35-892e-1f7a0d9abc57++4084</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Free1.6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

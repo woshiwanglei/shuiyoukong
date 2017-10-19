@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tags</key>
+	<array>
+		<string>春熙路</string>
+		<string>高新区</string>
+		<string>盐市口</string>
+		<string>科华北路</string>
+		<string>双楠</string>
+		<string>茶店子</string>
+		<string>建设路</string>
+		<string>玉林</string>
+		<string>桐梓林</string>
+		<string>九眼桥</string>
+		<string>骡马市</string>
+		<string>宽窄巷子</string>
+		<string>人均50以下</string>
+		<string>人均50-100</string>
+		<string>人均100-200</string>
+		<string>人均200以上</string>
+		<string>火锅</string>
+		<string>甜点</string>
+		<string>日料</string>
+		<string>烧烤</string>
+		<string>西餐</string>
+	</array>
+</dict>
+</plist>

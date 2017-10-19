@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="50" id="Rvo-Ie-boH" customClass="SelectFriendsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rvo-Ie-boH" id="usQ-1m-os3">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_selected" translatesAutoresizingMaskIntoConstraints="NO" id="gZW-b6-Uw4">
+                        <rect key="frame" x="288" y="14" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="Hz3-Xn-be7"/>
+                            <constraint firstAttribute="height" constant="22" id="RzS-tT-bLg"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gjj-nD-3Fr">
+                        <rect key="frame" x="8" y="4" width="41" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="IcO-cA-VUg"/>
+                            <constraint firstAttribute="width" constant="41" id="l0g-Ko-JmQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Af-b5-6it">
+                        <rect key="frame" x="57" y="16" width="38" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iH9-BS-1Ri">
+                        <rect key="frame" x="8" y="48" width="312" height="1"/>
+                        <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="1Ig-NH-g1x"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="gZW-b6-Uw4" secondAttribute="centerY" id="1Ja-pZ-8wj"/>
+                    <constraint firstItem="iH9-BS-1Ri" firstAttribute="leading" secondItem="usQ-1m-os3" secondAttribute="leading" constant="8" id="4Pe-AN-gtF"/>
+                    <constraint firstAttribute="centerY" secondItem="gjj-nD-3Fr" secondAttribute="centerY" id="DUw-Tj-Paj"/>
+                    <constraint firstItem="gjj-nD-3Fr" firstAttribute="centerY" secondItem="8Af-b5-6it" secondAttribute="centerY" id="JU8-r9-3uy"/>
+                    <constraint firstAttribute="centerX" secondItem="gjj-nD-3Fr" secondAttribute="centerX" constant="130" id="S8o-Kr-vff"/>
+                    <constraint firstAttribute="centerY" secondItem="gjj-nD-3Fr" secondAttribute="centerY" id="Vzg-EL-2MY"/>
+                    <constraint firstAttribute="trailing" secondItem="gZW-b6-Uw4" secondAttribute="trailing" constant="10" id="hWo-qP-kHV"/>
+                    <constraint firstAttribute="trailing" secondItem="iH9-BS-1Ri" secondAttribute="trailing" id="ifO-4k-cW1"/>
+                    <constraint firstAttribute="bottom" secondItem="iH9-BS-1Ri" secondAttribute="bottom" id="jjO-sW-Fi9"/>
+                    <constraint firstItem="8Af-b5-6it" firstAttribute="leading" secondItem="gjj-nD-3Fr" secondAttribute="trailing" constant="8" id="oZu-dT-tlh"/>
+                    <constraint firstItem="gjj-nD-3Fr" firstAttribute="leading" secondItem="usQ-1m-os3" secondAttribute="leading" constant="8" id="pC2-Oe-3RO"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="DUw-Tj-Paj"/>
+                        <exclude reference="S8o-Kr-vff"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="head_img" destination="gjj-nD-3Fr" id="mKT-Y1-MQk"/>
+                <outlet property="image_selected" destination="gZW-b6-Uw4" id="Aoq-8a-GQL"/>
+                <outlet property="name" destination="8Af-b5-6it" id="1js-YH-aWg"/>
+            </connections>
+            <point key="canvasLocation" x="312" y="234"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_selected" width="22" height="22"/>
+    </resources>
+</document>
